@@ -1,0 +1,1 @@
+Crate = new Mongo.Collection('brewhk.crate');
