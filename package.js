@@ -16,6 +16,7 @@ Package.onUse(function(api) {
   api.use(['alanning:roles@1.2.14', 'dburles:mongo-collection-instances@0.3.5'], ['server']);
   api.use(['mongo', 'ecmascript', 'accounts-base', 'check', 'stevezhu:lodash@0.0.0 || 1.0.0 || 3.0.0 || 4.0.0', 'aldeed:simple-schema@1.0.0']);
   api.addFiles('collections.js', ['client', 'server']);
+  api.addFiles('server/functions.js', ['server']);
   api.addFiles('server/schema.js', ['server']);
   api.addFiles('server/publications.js', ['server']);
   api.addFiles('server/methods.js', ['server']);
